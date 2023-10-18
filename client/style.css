@@ -8,13 +8,21 @@
 }
 
 body {
-  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(90, 92, 106, 1) 0%,
+    rgba(32, 45, 58, 1) 81.3%
+  );
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(90, 92, 106, 1) 0%,
+    rgba(32, 45, 58, 1) 81.3%
+  );
 
   display: flex;
   flex-direction: column;
@@ -50,7 +58,11 @@ body {
 }
 
 .ai {
-  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(90, 92, 106, 1) 0%,
+    rgba(32, 45, 58, 1) 81.3%
+  );
 }
 
 .chat {
@@ -69,7 +81,7 @@ body {
   height: 36px;
   border-radius: 5px;
 
-  background:transparent;
+  background: transparent;
 
   display: flex;
   justify-content: center;
@@ -84,9 +96,9 @@ body {
   width: 80%;
   height: 80%;
   object-fit: contain;
- 
+
   border-radius: 20%; /* Makes the container circular */
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .message {
@@ -120,11 +132,15 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(90, 92, 106, 1) 0%,
+    rgba(32, 45, 58, 1) 81.3%
+  );
   display: flex;
   flex-direction: row;
   gap: 10px;
- 
+
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -146,7 +162,7 @@ button {
   border: 0;
   cursor: pointer;
   background: transparent;
-  
+
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
